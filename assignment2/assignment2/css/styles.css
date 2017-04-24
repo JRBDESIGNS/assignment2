@@ -1,0 +1,118 @@
+body {
+    background-color: maroon;
+}
+
+#nav {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+	color: white;
+}
+
+.content {
+	text-align: center;
+}
+
+
+
+
+
+.button {
+  
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.6s;
+    /* Safari */
+    
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+	    border-radius: 15px;
+
+}
+.button5:hover {
+	    border-radius: 5px;
+
+    background-color: red;
+    color: white;
+	    border: 2px dotted white;
+
+}
+
+
+
+
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+	  border-radius: 5px;
+
+    background-color: red;
+    color: white;
+	    border: 2px dotted white;
+
+    font-size: 18px;
+    text-align: center;
+
+}
+.filter-button.active
+{
+    background-color: red;
+    color: white;
+}
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
